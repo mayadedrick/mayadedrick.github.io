@@ -1,0 +1,86 @@
+
+
+html, body {
+
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Nue", sans-serif;
+}
+
+
+.section-1, .section-2, .section-3, .section-4 {
+
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-attachment: fixed;
+	position: relative;
+
+	/* height property specifies the size of the page, and 
+	multiple classes and tags can be grouped together.
+	center property: bg img in middle of pg
+	repeat property: so bg img doesn't appear several times on pg
+	size property: img fits to window size
+
+	atachment property: MAKES PARALLAX SCROLLING EFFECT :O)
+	*/
+
+}
+
+
+.section-1 {
+	background-image: url(../images/image-01.jpg);
+}
+
+.section-2 {
+	background-image: url(../images/image-02.jpg);
+}
+
+.section-3 {
+	background-image: url(../images/image-03.jpg);
+}
+
+.section-4 {
+	background-image: url(../images/image-04.jpg);
+}
+
+/* 11/26/25
+background images were attached to each div by calling on the class
+*/
+
+.caption{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.caption-text{
+	background-color: white;
+	color: #cecece;
+	font-size: 42px;
+	font-weight: bold;
+	padding: 15px
+}
+
+.section-text{
+	color: pink;
+	/*
+	padding: 50px 80px;
+	*/
+	text-align: center;
+
+}
+
+.center-img{
+	width: 50%
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
